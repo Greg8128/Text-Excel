@@ -26,7 +26,8 @@ public class PercentCell extends RealCell{
         abbreviatedValue += "%";
         while(abbreviatedValue.length() < 10) abbreviatedValue += " ";
 
-        value = percentValue / 100;return abbreviatedValue;
+        value = percentValue / 100;
+        return abbreviatedValue;
     }
 
     public double getDoubleValue(){

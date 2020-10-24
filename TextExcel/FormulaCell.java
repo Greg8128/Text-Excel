@@ -60,7 +60,7 @@ public class FormulaCell extends RealCell{
 
         //loop to find and evaluate formulas
 
-        //loop to perform arithmetic
+        //loop to perform arithmetic. NOTE: does not support order of operations
         while(args.size() > 1){
             Double num1 = Double.parseDouble(args.get(0));
             Double num2 = Double.parseDouble(args.get(2));
